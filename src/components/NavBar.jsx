@@ -3,7 +3,9 @@ export default function Navbar() {
 
     return <>
         <div className="navbar">
-           
+
+            
+
             <ul className="liste">
                 <li>ACCEUIL</li>
                 <li>ACTUALITE</li>

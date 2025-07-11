@@ -6,12 +6,24 @@
 }
 
 .navbar{
-  height: 5rem;
+  height: 15vh;
     background-color:#001948;
     color:whitesmoke;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.logo{
+  width: 65px;
+  height: 65px;
+  /* border: red solid 2px; */
+  border-radius: 50%;
+  background-image: url("./image/cropped-Logo-e1662790239183.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .liste{
@@ -38,8 +50,14 @@ li{
 }
 
 .aside{
-  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  color: aliceblue;
+  display: flex;
   justify-content: center;
+  background-image: url("./image/photo1.jpeg");
+  background-size: cover;
+  align-items: center;
 }
 
 .listButton{
