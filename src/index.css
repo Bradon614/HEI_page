@@ -57,12 +57,13 @@ li{
   justify-content: center;
   background-image: url("./image/photo1.jpeg");
   background-size: cover;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .listButton{
   display: flex;
   justify-content: space-around;
+  padding: 60px;;
 }
 
 .listButton button{
@@ -77,7 +78,25 @@ li{
 
 .blue{
   width: 20rem;
+  height: 60px;
   background-color: #001948;
   color: white;
 }
+
+.sous_aside h1{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 180px;
+}
+
+.sous_aside p{
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+
 
