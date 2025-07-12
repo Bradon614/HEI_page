@@ -51,7 +51,7 @@ li{
   color: aliceblue;
   display: flex;
   justify-content: center;
-  background-image: url("./image/photo1.jpeg");
+  background: url("./image/photo1.jpeg") rgba(0,0,0,0.9);
   background-size: cover;
   /* align-items: center; */
 }
@@ -100,6 +100,7 @@ li{
   padding-top: 5rem;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 5rem;
 }
 .about {
   display: flex;
@@ -143,8 +144,6 @@ li{
   position: absolute;
 }
 
-
-
 .image__behind .mypic {
   border-radius: 20px;
 }
@@ -167,5 +166,49 @@ li{
   padding: 6px 6px 6px 6px;
 }
 
+/* Section Team */
+.team {
+  height: 40rem;
+  background-color: cadetblue;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  padding-top: 1.5rem;
+}
+
+.intro p {
+  padding: 1rem 5rem 2rem 5rem;
+  font-size: 1.2rem;
+}
+
+.slide-img {
+  margin: 2rem 5rem 10rem 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: whitesmoke;
+}
+
+.slide-img img {
+  background-color: darkgrey;
+  padding: 6px 6px 6px 6px;
+}
+
+.slide-img .mickey {
+  border-radius: 50%;
+}
 
 
