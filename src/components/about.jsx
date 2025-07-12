@@ -3,13 +3,7 @@ export default function About() {
 
         <div className="about-all">
             <div className="about-img">
-                <div className="image__behind">
-                    <img src="/src/image/mypic.png" className="mypic" alt="" />
-                </div>
-
-                <div className="image__front">
-                    <img src="/src/image/otherpic.jpeg" className="otherpic" alt="" />
-                </div>
+                <img src="/src/image/A-propos-left-1.webp" className="img-about" alt="" />
             </div>
 
             <div className="about">

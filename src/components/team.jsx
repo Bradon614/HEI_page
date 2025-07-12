@@ -17,7 +17,7 @@ export default function Team () {
         </div>
 
         <div className="slide-img">
-            <img src="src/image/Mickey.jpeg" className="mickey" alt="" />
+            <img src="src/image/Mirado.webp" className="mickey" alt="" />
             <h1>Mirado RAFENOMAHENINTSOA</h1>
             <p>Data and Business Intelligence Specialist 5+</p>
         </div>

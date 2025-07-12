@@ -51,7 +51,7 @@ li{
   color: aliceblue;
   display: flex;
   justify-content: center;
-  background: url("./image/photo1.jpeg") rgba(0,0,0,0.9);
+  background: url("./image/Banner-HEI-1.png") rgba(0,0,0,0.9);
   background-size: cover;
   /* align-items: center; */
 }
@@ -136,39 +136,14 @@ li{
   padding-top: 5rem;
 }
 
-.image__behind img {
-  width: 20rem;
-  background-color: whitesmoke;
-  padding: 6px 6px 6px 6px;
-  border-radius: 8px;
-  position: absolute;
+.about-img .img-about {
+  width: 35rem;
 }
 
-.image__behind .mypic {
-  border-radius: 20px;
-}
-
-.image__front {
-  padding-left: 15rem;
-  padding-top: 10rem;
-  position: relative;
-}
-
-.image__front img {
-  width: 20rem;
-  background-color: whitesmoke;
-  border-radius: 8px;
-}
-
-.image__front .otherpic {
-  border-radius: 20px;
-  background-color: whitesmoke;
-  padding: 6px 6px 6px 6px;
-}
 
 /* Section Team */
 .team {
-  height: 40rem;
+  height: 42rem;
   background-color: cadetblue;
 }
 .intro {
@@ -203,6 +178,7 @@ li{
 }
 
 .slide-img img {
+  width: 15rem;
   background-color: darkgrey;
   padding: 6px 6px 6px 6px;
 }
