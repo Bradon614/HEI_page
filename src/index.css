@@ -270,3 +270,52 @@ li{
 .admission-table h1 {
   color: whitesmoke;
 }
+
+/* Section Techno */
+.techno-containt {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: rgb(238, 236, 229);
+}
+
+.techno-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #001948;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+.techno-txt h1 {
+  font-size: 3.5rem;
+}
+
+.techno-txt p {
+  display: flex;
+  align-items: baseline;
+  font-size: 1.1rem;
+}
+
+.first-line {
+  display: flex;
+  align-items: center;
+ justify-content: space-around;
+}
+
+.first-line img {
+  width: 10rem;
+  padding-top: 4rem;
+}
+
+.second-line {
+  display: flex;
+  align-items: center;
+ justify-content: space-around;
+}
+
+.second-line img {
+  width: 8rem;
+  padding-top: 4rem;
+}
