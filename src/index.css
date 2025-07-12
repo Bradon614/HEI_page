@@ -101,5 +101,78 @@ li{
   
 }
 
+/* Sectio About */
+
+.about-all {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 40%;
+  color: #001948;
+}
+
+.about h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.5rem;
+}
+
+.about span {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about div {
+  font-size: 1.1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-img {
+  padding-top: 5rem;
+}
+
+.image__behind img {
+  width: 20rem;
+  background-color: whitesmoke;
+  padding: 6px 6px 6px 6px;
+  border-radius: 8px;
+  position: absolute;
+}
+
+
+
+.image__behind .mypic {
+  border-radius: 20px;
+}
+
+.image__front {
+  padding-left: 15rem;
+  padding-top: 10rem;
+  position: relative;
+}
+
+.image__front img {
+  width: 20rem;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+
+.image__front .otherpic {
+  border-radius: 20px;
+  background-color: whitesmoke;
+  padding: 6px 6px 6px 6px;
+}
+
 
 
