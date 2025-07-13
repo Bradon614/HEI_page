@@ -144,7 +144,7 @@ li{
 /* Section Team */
 .team {
   height: 42rem;
-  background-color: rgb(78, 155, 218);
+  background-color: #688ac4;
 }
 .intro {
   display: flex;
@@ -217,58 +217,109 @@ li{
 }
 
 /* Section admission */
-.admission-containt {
-  background-color: rgb(78, 155, 218);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.admission-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background-color: #688ac4;
+  font-family: 'Arial', sans-serif;
 }
 
-.admission-txt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  padding: 2rem 2rem 2rem 2rem;
-  font-size: 1.2rem;
+.admission-header {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.admission-table {
-  display: flex;
-  align-items: center;
-  padding: 2rem 5rem 2rem 5rem;
-  font-size: 1.1rem;
-}
-
-.admission-table .first {
-  background-color: rgb(255, 204, 185);
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 25rem;
-  height: 15rem;
-}
-
-.admission-table .second {
-  background-color: rgb(255, 186, 130);
-  width: 25rem;
-  height: 15rem;
-}
-
-.admission-table .third {
-  background-color: rgb(255, 159, 80);
-  width: 25rem;
-  height: 15rem;
-}
-
-.admission-table span {
-  display: block;
-  color: #001948;
-  font-weight: bolder;
-}
-
-.admission-table h1 {
+.admission-header h1 {
+  font-size: 36px;
   color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.admission-header p {
+  color: whitesmoke;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.admission-steps {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 0rem 5rem 0rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .admission-steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.step-box {
+  height: 10rem;
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.step-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.step-box h2 {
+  font-size: 28px;
+  color: #004d99;
+  margin-bottom: 10px;
+}
+
+.step-box span {
+  font-weight: bold;
+  color: #001948;
+}
+
+.admission-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .admission-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.btn.primary {
+  background-color: #004d99;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #003366;
+}
+
+.btn.secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: #d9d9d9;
 }
 
 /* Section Techno */
