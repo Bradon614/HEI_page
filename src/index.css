@@ -216,9 +216,89 @@ li{
   font-size: 1.2rem;
 }
 
+/* Section Domaines */
+.domaines-container {
+  padding: 80px 20px;
+  background-color: #cfd2d8;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+}
+
+.domaines-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+}
+
+.domaines-header h2 {
+  font-size: 36px;
+  color: #0e1d45;
+  margin-bottom: 16px;
+}
+
+.domaines-header p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.domaines-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 900px) {
+  .domaines-grid {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.domaine-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.domaine-img {
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-radius: 12px;
+}
+
+.domaine-card h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.title.blue {
+  color: #d4a11d;
+  background-color: transparent;
+}
+
+.title.gold {
+  color: #d4a11d;
+}
+
+.title.orange {
+  color: #d4a11d;
+}
+
+.domaine-card p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
 /* Section admission */
 .admission-container {
-  width: 100%;
   margin: 0 auto;
   padding: 60px 20px;
   background-color: #688ac4;
@@ -259,7 +339,7 @@ li{
 .step-box {
   height: 10rem;
   flex: 1;
-  border: 1px solid #ddd;
+  border: none;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s ease;

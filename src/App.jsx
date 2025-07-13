@@ -7,6 +7,7 @@ import Admission from './components/admission';
 import Techno from './components/techno';
 import './App.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Domaines from './components/domaine';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Team/>
       <Deboche/>
+      <Domaines/>
       <Admission/>
       <Techno/>
     </>
