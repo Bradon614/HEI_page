@@ -16,10 +16,20 @@ export default function Team () {
             </p >
         </div>
 
-        <div className="slide-img">
-            <img src="src/image/Mirado.webp" className="mickey" alt="" />
-            <h1>Mirado RAFENOMAHENINTSOA</h1>
-            <p>Data and Business Intelligence Specialist 5+</p>
+        <div className="equipes">
+
+            <div className="slide-img">
+                <img src="src/image/Mirado.webp" className="mickey" alt="" />
+                <h1>Mirado RAFENOMAHENINTSOA</h1>
+                <p>Data and Business Intelligence Specialist 5+</p>
+            </div>
+
+            <div className="slide-img">
+                <img src="src/image/Lou.jpg" className="mickey" alt="" />
+                <h1>Dr Lou Maurica</h1>
+                <p>Docteur-Ingenieur en informatique | Fondateur  </p>
+                <p> et Directeur pédagogique de HEI</p>
+            </div>
         </div>
     </div>
     </>

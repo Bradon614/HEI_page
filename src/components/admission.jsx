@@ -14,15 +14,15 @@ export default function Admission() {
       </div>
 
       <div className="admission-steps">
-        <div className="step-box" style={{ backgroundColor: '#F6E27F' }}>
+        <div className="step-box" style={{ backgroundColor: '#c7b385ff' }}>
           <h2>01</h2>
           <span>Dépôt de dossiers :</span> pour les bacheliers de toutes séries sans limite d’âge
         </div>
-        <div className="step-box" style={{ backgroundColor: '#F0B67F' }}>
+        <div className="step-box" style={{ backgroundColor: '#caa581ff' }}>
           <h2>02</h2>
           <span>Test de niveau :</span> composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D
         </div>
-        <div className="step-box" style={{ backgroundColor: '#E0D68A' }}>
+        <div className="step-box" style={{ backgroundColor: '#d2ba20ff' }}>
           <h2>03</h2>
           <span>Inscription définitive</span> (si test réussi)
         </div>

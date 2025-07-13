@@ -5,18 +5,22 @@
   font-family: Quicksand, sans-serif;
 }
 
+/* Navbar */
+
 .navbar{
   padding-left: 10rem;
   height: 15vh;
-    background-color:#001948;
-    color:whitesmoke;
-    display: flex;
-    gap: 20rem;
-    align-items: center;
+  background-color:#001948;
+  color:whitesmoke;
+  display: flex;
+  gap: 17rem;
+  align-items: center;
+  
 }
 
 .navbar img {
-  width: 7rem;
+  width: 5rem;
+  /* font-size: 10px; */
   display: flex;
   align-items: center;
 }
@@ -27,6 +31,7 @@
   /* border: 5px red solid; */
   display: flex;
   gap: 20px;
+  align-items: center;
   
 }
 
@@ -44,6 +49,8 @@ li{
   border-radius: 5px;
   border-color: none;
 }
+
+/* Aside */
 
 .aside{
   margin: 0;
@@ -65,11 +72,19 @@ li{
 .listButton button{
   font-size: 20px;
   width: 15rem;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+}
+button{
+  border: none;
 }
 
 .yellow{
   background-color: #DFA408;
   color: whitesmoke;
+  border: none;
+  
 }
 
 .blue{
@@ -77,6 +92,8 @@ li{
   height: 60px;
   background-color: #001948;
   color: white;
+  box-shadow: none;
+  outline: none;
 }
 
 .sous_aside h1{
@@ -168,6 +185,7 @@ li{
   margin: 2rem 5rem 10rem 5rem;
   margin-bottom: 5rem;
   padding: 2rem 2rem 2rem 2rem;
+  width: 35rem;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -185,6 +203,11 @@ li{
 
 .slide-img .mickey {
   border-radius: 50%;
+}
+
+.equipes{
+  display: flex;
+
 }
 
 /* Section debouche */
@@ -450,3 +473,29 @@ li{
   width: 8rem;
   padding-top: 4rem;
 }
+
+/* Footer */
+.footer{
+  background-color: #001948;
+  color: #cfd2d8;
+}
+
+.footer img{
+  width: 5rem;
+  padding-left: 4rem;
+}
+
+.LISTE{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.LISTE ul h2{
+  padding-bottom: 2rem;
+}
+
+.LISTE ul li{
+  padding-bottom: 2rem;
+}
+

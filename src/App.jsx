@@ -5,9 +5,9 @@ import Team from './components/team';
 import Deboche from './components/deboucher';
 import Admission from './components/admission';
 import Techno from './components/techno';
-import './App.css'
-import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import Domaines from './components/domaine';
+import Footer from './components/footer';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       <Domaines/>
       <Admission/>
       <Techno/>
+      <Footer/>
     </>
   )
 }
